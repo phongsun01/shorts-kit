@@ -1,0 +1,97 @@
+{
+  "id": "bi-an-vu-tru",
+  "flow": "A",
+  "visual": [
+    "illustrated-scene",
+    "kinetic-type"
+  ],
+  "language": "vi",
+  "voice": {
+    "engine": "vieneu",
+    "voice": "Thiện Minh"
+  },
+  "pause": {
+    "line": 0.4,
+    "scene": 0.7
+  },
+  "outroHold": 2.5,
+  "pronounce": {},
+  "spelling": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "text": "Đây là ba bí ẩn lớn nhất của vũ trụ mà các nhà khoa học vẫn chưa thể giải thích.",
+          "fact": "unsolved mysteries of universe"
+        }
+      ]
+    },
+    {
+      "id": "reason1",
+      "lines": [
+        {
+          "text": "Bí ẩn thứ nhất là vật chất tối và năng lượng tối.",
+          "fact": "dark matter and dark energy"
+        },
+        {
+          "text": "Chúng chiếm tới 95% toàn bộ vũ trụ, nhưng con người hoàn toàn vô hình trước chúng.",
+          "fact": "95 percent of universe is dark matter energy"
+        }
+      ]
+    },
+    {
+      "id": "reason2",
+      "lines": [
+        {
+          "text": "Bí ẩn thứ hai là bên trong hố đen thực sự có gì.",
+          "fact": "black hole singularity"
+        },
+        {
+          "text": "Tại điểm kỳ dị, mọi quy luật vật lý hiện đại đều sụp đổ hoàn toàn.",
+          "fact": "physics laws break at singularity"
+        }
+      ]
+    },
+    {
+      "id": "reason3",
+      "lines": [
+        {
+          "text": "Bí ẩn thứ ba là Nghịch lý Fermi.",
+          "fact": "fermi paradox"
+        },
+        {
+          "text": "Vũ trụ có hàng tỷ tỷ hành tinh, nhưng tại sao chúng ta vẫn chưa tìm thấy một dấu vết người ngoài hành tinh?",
+          "fact": "where are all the aliens"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "text": "Thực tế, tất cả những gì loài người quan sát được chỉ chiếm vỏn vẹn dưới 5% vũ trụ.",
+          "fact": "ordinary matter is under 5 percent"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "lines": [
+        {
+          "text": "Chúng ta tưởng mình hiểu biết, nhưng thực chất chỉ như một hạt cát giữa đại dương vô tận.",
+          "fact": "payoff human knowledge is minuscule"
+        }
+      ]
+    },
+    {
+      "id": "share",
+      "lines": [
+        {
+          "text": "Theo bạn, liệu loài người có bao giờ giải mã được hết vũ trụ này không?",
+          "fact": "cta"
+        }
+      ]
+    }
+  ]
+}

@@ -21,6 +21,16 @@ __pycache__/
 # Page captures, rebuilt by `bun run capture <id> <url>`
 public/capture/
 
-# Music files stay local (licence unverified or not redistributable)
-public/music/*.mp3
-public/music/*.beats.json
+# Music files and sound effects stay local (licence unverified or not redistributable)
+public/music/*
+!public/music/README.md
+public/sfx/library/
+sfx-thu-vien/
+
+# Motion styles heavy video previews
+templates/**/*.mp4
+templates/**/*.zip
+*.mp4
+*.m4a
+*.wav
+*.mov

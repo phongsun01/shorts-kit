@@ -8,14 +8,14 @@
  *
  * Every video registers the composition ids `Video` and `Cover`.
  */
-import {existsSync, readFileSync, statSync} from "node:fs";
-import {join} from "node:path";
-import {FPS} from "../src/shared/theme";
-import type {Voice} from "../src/shared/timings";
-import {loadNarration, voiceHash} from "./lib/narration";
-import {die, ensureDir, flag, isVoiceless, outDir, p, videoDir} from "./lib/paths";
-import {promoSeconds, type Promo} from "../src/shared/promo";
-import {duration, must, run} from "./lib/proc";
+import { existsSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import { FPS } from "../src/shared/theme";
+import type { Voice } from "../src/shared/timings";
+import { loadNarration, voiceHash } from "./lib/narration";
+import { die, ensureDir, flag, isVoiceless, outDir, p, videoDir } from "./lib/paths";
+import { promoSeconds, type Promo } from "../src/shared/promo";
+import { duration, must, run } from "./lib/proc";
 
 const [mode, id] = process.argv.slice(2).filter((a) => !a.startsWith("-"));
 const MODES = ["dev", "still", "render", "cover"];
@@ -46,7 +46,7 @@ if (existsSync(voicePath) && existsSync(join(videoDir(id), "narration.json"))) {
 }
 
 const remotion = async (args: string[], timeoutMs: number) => {
-  const r = await run(bin, args, {inherit: true, timeoutMs});
+  const r = await run(bin, args, { inherit: true, timeoutMs });
   if (r.timedOut) die(`remotion ${args[0]} timed out after ${timeoutMs / MIN} min`);
   if (r.code !== 0) die(`remotion ${args[0]} exited ${r.code}`);
 };
@@ -58,10 +58,11 @@ const mustExist = (file: string, since: number) => {
 
 const out = ensureDir(outDir(id));
 const started = Date.now() - 1000;
-const props = JSON.stringify({safe});
+const propsFile = join(out, "props.json");
+writeFileSync(propsFile, JSON.stringify({ safe }));
 
 if (mode === "dev") {
-  const r = await run(bin, ["studio", relEntry], {inherit: true, timeoutMs: 24 * 60 * MIN});
+  const r = await run(bin, ["studio", relEntry], { inherit: true, timeoutMs: 24 * 60 * MIN });
   process.exit(r.code);
 }
 
@@ -70,14 +71,14 @@ if (mode === "still") {
   const frame = typeof f === "string" ? Number(f) : 0;
   if (!Number.isInteger(frame) || frame < 0) die(`--frame must be a frame number, got "${f}"`);
   const file = join(out, `still-${frame}.png`);
-  await remotion(["still", relEntry, "Video", file, `--frame=${frame}`, `--props=${props}`], 10 * MIN);
+  await remotion(["still", relEntry, "Video", file, `--frame=${frame}`, `--props=${propsFile}`], 10 * MIN);
   mustExist(file, started);
   console.log(`+ out/${id}/still-${frame}.png${safe ? " (safe-zone overlay on)" : ""}. Open it and look (§7).`);
 }
 
 if (mode === "render") {
   const file = join(out, `${id}.mp4`);
-  await remotion(["render", relEntry, "Video", file, "--codec=h264", `--props=${props}`], 90 * MIN);
+  await remotion(["render", relEntry, "Video", file, "--codec=h264", `--props=${propsFile}`], 90 * MIN);
   mustExist(file, started);
   const got = await duration(file);
   if (isVoiceless(id)) {
@@ -95,14 +96,14 @@ if (mode === "render") {
 
 if (mode === "cover") {
   const png = join(out, safe ? "cover-safe.png" : `${id}-cover.png`);
-  await remotion(["still", relEntry, "Cover", png, `--props=${props}`], 10 * MIN);
+  await remotion(["still", relEntry, "Cover", png, `--props=${propsFile}`], 10 * MIN);
   mustExist(png, started);
   if (safe) {
     console.log(`+ out/${id}/cover-safe.png (overlay on, not for upload)`);
   } else {
     const jpg = join(out, `${id}-cover.jpg`);
     // -q:v 2 ≈ JPEG quality 92; 4:4:4 keeps text edges clean
-    await must("ffmpeg", ["-v", "error", "-y", "-i", png, "-pix_fmt", "yuvj444p", "-q:v", "2", jpg], {timeoutMs: 60_000});
+    await must("ffmpeg", ["-v", "error", "-y", "-i", png, "-pix_fmt", "yuvj444p", "-q:v", "2", jpg], { timeoutMs: 60_000 });
     console.log(`+ out/${id}/${id}-cover.png and .jpg. Check it at 200 px wide (sk-handoff, §10).`);
   }
 }

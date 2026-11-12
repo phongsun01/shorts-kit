@@ -1,0 +1,1117 @@
+{
+  "hash": "91b85bb9f9625591",
+  "engine": "vieneu:Thiện Minh",
+  "duration": 41.67,
+  "audio": "audio/bi-an-vu-tru/voice.mp3",
+  "words": [
+    {
+      "text": "Đây",
+      "start": 0,
+      "end": 0.17,
+      "line": 0
+    },
+    {
+      "text": "là",
+      "start": 0.185,
+      "end": 0.32,
+      "line": 0
+    },
+    {
+      "text": "ba",
+      "start": 0.332,
+      "end": 0.468,
+      "line": 0
+    },
+    {
+      "text": "bí",
+      "start": 0.48,
+      "end": 0.616,
+      "line": 0
+    },
+    {
+      "text": "ẩn",
+      "start": 0.628,
+      "end": 0.764,
+      "line": 0
+    },
+    {
+      "text": "lớn",
+      "start": 0.775,
+      "end": 0.945,
+      "line": 0
+    },
+    {
+      "text": "nhất",
+      "start": 0.96,
+      "end": 1.164,
+      "line": 0
+    },
+    {
+      "text": "của",
+      "start": 1.182,
+      "end": 1.351,
+      "line": 0
+    },
+    {
+      "text": "vũ",
+      "start": 1.366,
+      "end": 1.502,
+      "line": 0
+    },
+    {
+      "text": "trụ",
+      "start": 1.514,
+      "end": 1.684,
+      "line": 0
+    },
+    {
+      "text": "mà",
+      "start": 1.698,
+      "end": 1.834,
+      "line": 0
+    },
+    {
+      "text": "các",
+      "start": 1.846,
+      "end": 2.016,
+      "line": 0
+    },
+    {
+      "text": "nhà",
+      "start": 2.031,
+      "end": 2.201,
+      "line": 0
+    },
+    {
+      "text": "khoa",
+      "start": 2.215,
+      "end": 2.419,
+      "line": 0
+    },
+    {
+      "text": "học",
+      "start": 2.437,
+      "end": 2.607,
+      "line": 0
+    },
+    {
+      "text": "vẫn",
+      "start": 2.622,
+      "end": 2.791,
+      "line": 0
+    },
+    {
+      "text": "chưa",
+      "start": 2.806,
+      "end": 3.01,
+      "line": 0
+    },
+    {
+      "text": "thể",
+      "start": 3.028,
+      "end": 3.198,
+      "line": 0
+    },
+    {
+      "text": "giải",
+      "start": 3.212,
+      "end": 3.416,
+      "line": 0
+    },
+    {
+      "text": "thích",
+      "start": 3.434,
+      "end": 3.808,
+      "line": 0,
+      "brk": "sentence"
+    },
+    {
+      "text": "Bí",
+      "start": 4.54,
+      "end": 4.698,
+      "line": 1
+    },
+    {
+      "text": "ẩn",
+      "start": 4.712,
+      "end": 4.87,
+      "line": 1
+    },
+    {
+      "text": "thứ",
+      "start": 4.883,
+      "end": 5.081,
+      "line": 1
+    },
+    {
+      "text": "nhất",
+      "start": 5.098,
+      "end": 5.335,
+      "line": 1
+    },
+    {
+      "text": "là",
+      "start": 5.356,
+      "end": 5.513,
+      "line": 1
+    },
+    {
+      "text": "vật",
+      "start": 5.527,
+      "end": 5.725,
+      "line": 1
+    },
+    {
+      "text": "chất",
+      "start": 5.742,
+      "end": 5.979,
+      "line": 1
+    },
+    {
+      "text": "tối",
+      "start": 5.999,
+      "end": 6.197,
+      "line": 1
+    },
+    {
+      "text": "và",
+      "start": 6.214,
+      "end": 6.372,
+      "line": 1
+    },
+    {
+      "text": "năng",
+      "start": 6.386,
+      "end": 6.623,
+      "line": 1
+    },
+    {
+      "text": "lượng",
+      "start": 6.643,
+      "end": 6.92,
+      "line": 1
+    },
+    {
+      "text": "tối",
+      "start": 6.944,
+      "end": 7.299,
+      "line": 1,
+      "brk": "sentence"
+    },
+    {
+      "text": "Chúng",
+      "start": 7.73,
+      "end": 8.016,
+      "line": 2
+    },
+    {
+      "text": "chiếm",
+      "start": 8.041,
+      "end": 8.327,
+      "line": 2
+    },
+    {
+      "text": "tới",
+      "start": 8.352,
+      "end": 8.556,
+      "line": 2
+    },
+    {
+      "text": "95%",
+      "start": 8.574,
+      "end": 8.778,
+      "line": 2
+    },
+    {
+      "text": "toàn",
+      "start": 8.796,
+      "end": 9.041,
+      "line": 2
+    },
+    {
+      "text": "bộ",
+      "start": 9.063,
+      "end": 9.226,
+      "line": 2
+    },
+    {
+      "text": "vũ",
+      "start": 9.24,
+      "end": 9.404,
+      "line": 2
+    },
+    {
+      "text": "trụ",
+      "start": 9.418,
+      "end": 9.704,
+      "line": 2,
+      "brk": "clause"
+    },
+    {
+      "text": "nhưng",
+      "start": 9.729,
+      "end": 10.015,
+      "line": 2
+    },
+    {
+      "text": "con",
+      "start": 10.04,
+      "end": 10.244,
+      "line": 2
+    },
+    {
+      "text": "người",
+      "start": 10.262,
+      "end": 10.548,
+      "line": 2
+    },
+    {
+      "text": "hoàn",
+      "start": 10.573,
+      "end": 10.818,
+      "line": 2
+    },
+    {
+      "text": "toàn",
+      "start": 10.84,
+      "end": 11.085,
+      "line": 2
+    },
+    {
+      "text": "vô",
+      "start": 11.106,
+      "end": 11.27,
+      "line": 2
+    },
+    {
+      "text": "hình",
+      "start": 11.284,
+      "end": 11.529,
+      "line": 2
+    },
+    {
+      "text": "trước",
+      "start": 11.55,
+      "end": 11.836,
+      "line": 2
+    },
+    {
+      "text": "chúng",
+      "start": 11.861,
+      "end": 12.311,
+      "line": 2,
+      "brk": "sentence"
+    },
+    {
+      "text": "Bí",
+      "start": 13.05,
+      "end": 13.205,
+      "line": 3
+    },
+    {
+      "text": "ẩn",
+      "start": 13.219,
+      "end": 13.374,
+      "line": 3
+    },
+    {
+      "text": "thứ",
+      "start": 13.387,
+      "end": 13.581,
+      "line": 3
+    },
+    {
+      "text": "hai",
+      "start": 13.598,
+      "end": 13.792,
+      "line": 3
+    },
+    {
+      "text": "là",
+      "start": 13.809,
+      "end": 13.964,
+      "line": 3
+    },
+    {
+      "text": "bên",
+      "start": 13.977,
+      "end": 14.171,
+      "line": 3
+    },
+    {
+      "text": "trong",
+      "start": 14.188,
+      "end": 14.46,
+      "line": 3
+    },
+    {
+      "text": "hố",
+      "start": 14.483,
+      "end": 14.638,
+      "line": 3
+    },
+    {
+      "text": "đen",
+      "start": 14.652,
+      "end": 14.846,
+      "line": 3
+    },
+    {
+      "text": "thực",
+      "start": 14.863,
+      "end": 15.095,
+      "line": 3
+    },
+    {
+      "text": "sự",
+      "start": 15.116,
+      "end": 15.271,
+      "line": 3
+    },
+    {
+      "text": "có",
+      "start": 15.284,
+      "end": 15.439,
+      "line": 3
+    },
+    {
+      "text": "gì",
+      "start": 15.453,
+      "end": 15.763,
+      "line": 3,
+      "brk": "sentence"
+    },
+    {
+      "text": "Tại",
+      "start": 16.19,
+      "end": 16.367,
+      "line": 4
+    },
+    {
+      "text": "điểm",
+      "start": 16.383,
+      "end": 16.595,
+      "line": 4
+    },
+    {
+      "text": "kỳ",
+      "start": 16.614,
+      "end": 16.755,
+      "line": 4
+    },
+    {
+      "text": "dị",
+      "start": 16.768,
+      "end": 16.98,
+      "line": 4,
+      "brk": "clause"
+    },
+    {
+      "text": "mọi",
+      "start": 16.999,
+      "end": 17.176,
+      "line": 4
+    },
+    {
+      "text": "quy",
+      "start": 17.191,
+      "end": 17.368,
+      "line": 4
+    },
+    {
+      "text": "luật",
+      "start": 17.384,
+      "end": 17.596,
+      "line": 4
+    },
+    {
+      "text": "vật",
+      "start": 17.615,
+      "end": 17.792,
+      "line": 4
+    },
+    {
+      "text": "lý",
+      "start": 17.807,
+      "end": 17.949,
+      "line": 4
+    },
+    {
+      "text": "hiện",
+      "start": 17.961,
+      "end": 18.174,
+      "line": 4
+    },
+    {
+      "text": "đại",
+      "start": 18.192,
+      "end": 18.369,
+      "line": 4
+    },
+    {
+      "text": "đều",
+      "start": 18.385,
+      "end": 18.562,
+      "line": 4
+    },
+    {
+      "text": "sụp",
+      "start": 18.577,
+      "end": 18.754,
+      "line": 4
+    },
+    {
+      "text": "đổ",
+      "start": 18.77,
+      "end": 18.912,
+      "line": 4
+    },
+    {
+      "text": "hoàn",
+      "start": 18.924,
+      "end": 19.136,
+      "line": 4
+    },
+    {
+      "text": "toàn",
+      "start": 19.155,
+      "end": 19.509,
+      "line": 4,
+      "brk": "sentence"
+    },
+    {
+      "text": "Bí",
+      "start": 20.24,
+      "end": 20.401,
+      "line": 5
+    },
+    {
+      "text": "ẩn",
+      "start": 20.415,
+      "end": 20.577,
+      "line": 5
+    },
+    {
+      "text": "thứ",
+      "start": 20.591,
+      "end": 20.793,
+      "line": 5
+    },
+    {
+      "text": "ba",
+      "start": 20.81,
+      "end": 20.972,
+      "line": 5
+    },
+    {
+      "text": "là",
+      "start": 20.986,
+      "end": 21.147,
+      "line": 5
+    },
+    {
+      "text": "Nghịch",
+      "start": 21.161,
+      "end": 21.484,
+      "line": 5
+    },
+    {
+      "text": "lý",
+      "start": 21.512,
+      "end": 21.673,
+      "line": 5
+    },
+    {
+      "text": "Fermi",
+      "start": 21.688,
+      "end": 22.131,
+      "line": 5,
+      "brk": "sentence"
+    },
+    {
+      "text": "Vũ",
+      "start": 22.57,
+      "end": 22.706,
+      "line": 6
+    },
+    {
+      "text": "trụ",
+      "start": 22.718,
+      "end": 22.887,
+      "line": 6
+    },
+    {
+      "text": "có",
+      "start": 22.902,
+      "end": 23.038,
+      "line": 6
+    },
+    {
+      "text": "hàng",
+      "start": 23.05,
+      "end": 23.254,
+      "line": 6
+    },
+    {
+      "text": "tỷ",
+      "start": 23.271,
+      "end": 23.407,
+      "line": 6
+    },
+    {
+      "text": "tỷ",
+      "start": 23.419,
+      "end": 23.555,
+      "line": 6
+    },
+    {
+      "text": "hành",
+      "start": 23.567,
+      "end": 23.77,
+      "line": 6
+    },
+    {
+      "text": "tinh",
+      "start": 23.788,
+      "end": 24.06,
+      "line": 6,
+      "brk": "clause"
+    },
+    {
+      "text": "nhưng",
+      "start": 24.083,
+      "end": 24.321,
+      "line": 6
+    },
+    {
+      "text": "tại",
+      "start": 24.342,
+      "end": 24.512,
+      "line": 6
+    },
+    {
+      "text": "sao",
+      "start": 24.526,
+      "end": 24.696,
+      "line": 6
+    },
+    {
+      "text": "chúng",
+      "start": 24.711,
+      "end": 24.949,
+      "line": 6
+    },
+    {
+      "text": "ta",
+      "start": 24.969,
+      "end": 25.105,
+      "line": 6
+    },
+    {
+      "text": "vẫn",
+      "start": 25.117,
+      "end": 25.287,
+      "line": 6
+    },
+    {
+      "text": "chưa",
+      "start": 25.301,
+      "end": 25.505,
+      "line": 6
+    },
+    {
+      "text": "tìm",
+      "start": 25.523,
+      "end": 25.693,
+      "line": 6
+    },
+    {
+      "text": "thấy",
+      "start": 25.708,
+      "end": 25.911,
+      "line": 6
+    },
+    {
+      "text": "một",
+      "start": 25.929,
+      "end": 26.099,
+      "line": 6
+    },
+    {
+      "text": "dấu",
+      "start": 26.114,
+      "end": 26.283,
+      "line": 6
+    },
+    {
+      "text": "vết",
+      "start": 26.298,
+      "end": 26.468,
+      "line": 6
+    },
+    {
+      "text": "người",
+      "start": 26.483,
+      "end": 26.72,
+      "line": 6
+    },
+    {
+      "text": "ngoài",
+      "start": 26.741,
+      "end": 26.979,
+      "line": 6
+    },
+    {
+      "text": "hành",
+      "start": 26.999,
+      "end": 27.203,
+      "line": 6
+    },
+    {
+      "text": "tinh",
+      "start": 27.221,
+      "end": 27.56,
+      "line": 6,
+      "brk": "sentence"
+    },
+    {
+      "text": "Thực",
+      "start": 28.29,
+      "end": 28.525,
+      "line": 7
+    },
+    {
+      "text": "tế",
+      "start": 28.545,
+      "end": 28.78,
+      "line": 7,
+      "brk": "clause"
+    },
+    {
+      "text": "tất",
+      "start": 28.8,
+      "end": 28.996,
+      "line": 7
+    },
+    {
+      "text": "cả",
+      "start": 29.013,
+      "end": 29.169,
+      "line": 7
+    },
+    {
+      "text": "những",
+      "start": 29.183,
+      "end": 29.457,
+      "line": 7
+    },
+    {
+      "text": "gì",
+      "start": 29.481,
+      "end": 29.637,
+      "line": 7
+    },
+    {
+      "text": "loài",
+      "start": 29.651,
+      "end": 29.885,
+      "line": 7
+    },
+    {
+      "text": "người",
+      "start": 29.906,
+      "end": 30.18,
+      "line": 7
+    },
+    {
+      "text": "quan",
+      "start": 30.204,
+      "end": 30.438,
+      "line": 7
+    },
+    {
+      "text": "sát",
+      "start": 30.459,
+      "end": 30.654,
+      "line": 7
+    },
+    {
+      "text": "được",
+      "start": 30.671,
+      "end": 30.906,
+      "line": 7
+    },
+    {
+      "text": "chỉ",
+      "start": 30.926,
+      "end": 31.122,
+      "line": 7
+    },
+    {
+      "text": "chiếm",
+      "start": 31.139,
+      "end": 31.413,
+      "line": 7
+    },
+    {
+      "text": "vỏn",
+      "start": 31.437,
+      "end": 31.632,
+      "line": 7
+    },
+    {
+      "text": "vẹn",
+      "start": 31.649,
+      "end": 31.845,
+      "line": 7
+    },
+    {
+      "text": "dưới",
+      "start": 31.862,
+      "end": 32.097,
+      "line": 7
+    },
+    {
+      "text": "5%",
+      "start": 32.117,
+      "end": 32.274,
+      "line": 7
+    },
+    {
+      "text": "vũ",
+      "start": 32.287,
+      "end": 32.444,
+      "line": 7
+    },
+    {
+      "text": "trụ",
+      "start": 32.457,
+      "end": 32.809,
+      "line": 7,
+      "brk": "sentence"
+    },
+    {
+      "text": "Chúng",
+      "start": 33.54,
+      "end": 33.769,
+      "line": 8
+    },
+    {
+      "text": "ta",
+      "start": 33.789,
+      "end": 33.92,
+      "line": 8
+    },
+    {
+      "text": "tưởng",
+      "start": 33.931,
+      "end": 34.16,
+      "line": 8
+    },
+    {
+      "text": "mình",
+      "start": 34.18,
+      "end": 34.377,
+      "line": 8
+    },
+    {
+      "text": "hiểu",
+      "start": 34.394,
+      "end": 34.59,
+      "line": 8
+    },
+    {
+      "text": "biết",
+      "start": 34.607,
+      "end": 34.869,
+      "line": 8,
+      "brk": "clause"
+    },
+    {
+      "text": "nhưng",
+      "start": 34.892,
+      "end": 35.121,
+      "line": 8
+    },
+    {
+      "text": "thực",
+      "start": 35.141,
+      "end": 35.337,
+      "line": 8
+    },
+    {
+      "text": "chất",
+      "start": 35.354,
+      "end": 35.551,
+      "line": 8
+    },
+    {
+      "text": "chỉ",
+      "start": 35.568,
+      "end": 35.731,
+      "line": 8
+    },
+    {
+      "text": "như",
+      "start": 35.746,
+      "end": 35.909,
+      "line": 8
+    },
+    {
+      "text": "một",
+      "start": 35.924,
+      "end": 36.087,
+      "line": 8
+    },
+    {
+      "text": "hạt",
+      "start": 36.101,
+      "end": 36.265,
+      "line": 8
+    },
+    {
+      "text": "cát",
+      "start": 36.279,
+      "end": 36.443,
+      "line": 8
+    },
+    {
+      "text": "giữa",
+      "start": 36.457,
+      "end": 36.654,
+      "line": 8
+    },
+    {
+      "text": "đại",
+      "start": 36.671,
+      "end": 36.834,
+      "line": 8
+    },
+    {
+      "text": "dương",
+      "start": 36.848,
+      "end": 37.078,
+      "line": 8
+    },
+    {
+      "text": "vô",
+      "start": 37.098,
+      "end": 37.228,
+      "line": 8
+    },
+    {
+      "text": "tận",
+      "start": 37.24,
+      "end": 37.534,
+      "line": 8,
+      "brk": "sentence"
+    },
+    {
+      "text": "Theo",
+      "start": 38.26,
+      "end": 38.465,
+      "line": 9
+    },
+    {
+      "text": "bạn",
+      "start": 38.482,
+      "end": 38.721,
+      "line": 9,
+      "brk": "clause"
+    },
+    {
+      "text": "liệu",
+      "start": 38.742,
+      "end": 38.946,
+      "line": 9
+    },
+    {
+      "text": "loài",
+      "start": 38.964,
+      "end": 39.169,
+      "line": 9
+    },
+    {
+      "text": "người",
+      "start": 39.187,
+      "end": 39.425,
+      "line": 9
+    },
+    {
+      "text": "có",
+      "start": 39.446,
+      "end": 39.582,
+      "line": 9
+    },
+    {
+      "text": "bao",
+      "start": 39.594,
+      "end": 39.765,
+      "line": 9
+    },
+    {
+      "text": "giờ",
+      "start": 39.78,
+      "end": 39.95,
+      "line": 9
+    },
+    {
+      "text": "giải",
+      "start": 39.965,
+      "end": 40.17,
+      "line": 9
+    },
+    {
+      "text": "mã",
+      "start": 40.187,
+      "end": 40.324,
+      "line": 9
+    },
+    {
+      "text": "được",
+      "start": 40.336,
+      "end": 40.54,
+      "line": 9
+    },
+    {
+      "text": "hết",
+      "start": 40.558,
+      "end": 40.729,
+      "line": 9
+    },
+    {
+      "text": "vũ",
+      "start": 40.743,
+      "end": 40.88,
+      "line": 9
+    },
+    {
+      "text": "trụ",
+      "start": 40.892,
+      "end": 41.062,
+      "line": 9
+    },
+    {
+      "text": "này",
+      "start": 41.077,
+      "end": 41.247,
+      "line": 9
+    },
+    {
+      "text": "không",
+      "start": 41.262,
+      "end": 41.637,
+      "line": 9,
+      "brk": "sentence"
+    }
+  ],
+  "lines": [
+    {
+      "scene": "hook",
+      "index": 0,
+      "text": "Đây là ba bí ẩn lớn nhất của vũ trụ mà các nhà khoa học vẫn chưa thể giải thích.",
+      "start": 0,
+      "end": 3.84
+    },
+    {
+      "scene": "reason1",
+      "index": 0,
+      "text": "Bí ẩn thứ nhất là vật chất tối và năng lượng tối.",
+      "start": 4.54,
+      "end": 7.33
+    },
+    {
+      "scene": "reason1",
+      "index": 1,
+      "text": "Chúng chiếm tới 95% toàn bộ vũ trụ, nhưng con người hoàn toàn vô hình trước chúng.",
+      "start": 7.73,
+      "end": 12.35
+    },
+    {
+      "scene": "reason2",
+      "index": 0,
+      "text": "Bí ẩn thứ hai là bên trong hố đen thực sự có gì.",
+      "start": 13.05,
+      "end": 15.79
+    },
+    {
+      "scene": "reason2",
+      "index": 1,
+      "text": "Tại điểm kỳ dị, mọi quy luật vật lý hiện đại đều sụp đổ hoàn toàn.",
+      "start": 16.19,
+      "end": 19.54
+    },
+    {
+      "scene": "reason3",
+      "index": 0,
+      "text": "Bí ẩn thứ ba là Nghịch lý Fermi.",
+      "start": 20.24,
+      "end": 22.17
+    },
+    {
+      "scene": "reason3",
+      "index": 1,
+      "text": "Vũ trụ có hàng tỷ tỷ hành tinh, nhưng tại sao chúng ta vẫn chưa tìm thấy một dấu vết người ngoài hành tinh?",
+      "start": 22.57,
+      "end": 27.59
+    },
+    {
+      "scene": "context",
+      "index": 0,
+      "text": "Thực tế, tất cả những gì loài người quan sát được chỉ chiếm vỏn vẹn dưới 5% vũ trụ.",
+      "start": 28.29,
+      "end": 32.84
+    },
+    {
+      "scene": "payoff",
+      "index": 0,
+      "text": "Chúng ta tưởng mình hiểu biết, nhưng thực chất chỉ như một hạt cát giữa đại dương vô tận.",
+      "start": 33.54,
+      "end": 37.56
+    },
+    {
+      "scene": "share",
+      "index": 0,
+      "text": "Theo bạn, liệu loài người có bao giờ giải mã được hết vũ trụ này không?",
+      "start": 38.26,
+      "end": 41.67
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 3.84
+    },
+    {
+      "id": "reason1",
+      "start": 4.54,
+      "end": 12.35
+    },
+    {
+      "id": "reason2",
+      "start": 13.05,
+      "end": 19.54
+    },
+    {
+      "id": "reason3",
+      "start": 20.24,
+      "end": 27.59
+    },
+    {
+      "id": "context",
+      "start": 28.29,
+      "end": 32.84
+    },
+    {
+      "id": "payoff",
+      "start": 33.54,
+      "end": 37.56
+    },
+    {
+      "id": "share",
+      "start": 38.26,
+      "end": 41.67
+    }
+  ]
+}

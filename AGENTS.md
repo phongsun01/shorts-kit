@@ -62,3 +62,12 @@ bun run check                    # boundaries + tsc --noEmit
 - **A video never imports another video.** Shared code goes in `src/shared/`; `bun run check` enforces it.
 - Never claim a scene or render is done without opening the still or frame.
 - Never rewrite a posted video to fit a new rule; rules apply to the next video.
+
+## Local Resources (SFX Library & Motion Styles)
+
+- **Sound Library (585 sounds)**:
+  - SFX (439 sounds): `public/sfx/library/` (search via `python sfx-thu-vien/scripts/tim_sfx.py "<query>"`)
+  - Music (146 tracks): `public/music/` (search via `python sfx-thu-vien/scripts/tim_nhac.py "<query>"`)
+  - Use in code: `<Sfx cues={[{at: frame, src: "sfx/library/<group>/<file>.mp3"}]} />` or `<BackgroundMusic src="music/<file>.m4a" ... />`.
+- **20 Reference Motion Styles**:
+  - Located in `templates/motion-styles/` (*Neo-brutalism, Isometric, Kinetic Type, Glassmorphism, Retro VHS, Pixel Art, Holographic*, etc.). Reference their `SKILL.md` and animation logic when building Remotion scenes.
